@@ -2,12 +2,12 @@
 
 # Swift-Python
 
-This is a demo for swift use python ins iOS app
+This is a demo for swift use python in iOS app
 
 ### Step 1
 - import python.xcframework to app, and select `Embed&Sign`
 - framework can get from: [Python-Apple-support](https://github.com/beeware/Python-Apple-support)
-- import PythonKit, use Swift package:
+- import `PythonKit`, use Swift package:
   ```
   .package(url: "https://github.com/pvieito/PythonKit.git", branch: "master"),
   ```
