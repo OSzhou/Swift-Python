@@ -28,6 +28,6 @@ Config script in `TARGETS`->`Build Phases`, look for demo and coyp those to your
 
 ### Step 3
 
-Add `app_packages`file to project. this file contain test code like script.py. and file`rubicon`, `rubicon_objc-0.4.9.dist-info` get from BeeWare-iOS program, can use for python call oc code.
+Add `app_packages`file to project. this file contain test code like `script.py`. and file`rubicon`, `rubicon_objc-0.4.9.dist-info` get from [BeeWare](https://docs.beeware.org/zh-cn/latest/tutorial/tutorial-5/iOS.html)-iOS program, can use for python call oc code.
 
 
