@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .cyan
+        
+        let w = UIScreen.main.bounds.width
+        let lable = UILabel(frame: CGRect(x: 100 / 2, y: 70, width: w - 100, height: 200))
+        lable.font = UIFont.systemFont(ofSize: 50, weight: .bold)
+        lable.textAlignment = .center
+        lable.numberOfLines = 0
+        lable.text = "Touch screen to trigger test code!!!"
+        view.addSubview(lable)
+        
         test_configPyEnv()
     }
 
